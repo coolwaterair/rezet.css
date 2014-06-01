@@ -1,0 +1,320 @@
+/* reset */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+header, main, footer, nav, menu, form, section, article, aside, hgroup, figcaption, figure, summary, details {
+	display: block;
+}
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, button, select {
+    margin: 0;
+    padding: 0;
+	vertical-align: middle;
+}
+textarea {
+    margin: 0;
+    padding: 0;
+	resize: none;
+	overflow: auto;
+}
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	text-decoration: none;
+}
+a img {
+	border: 0;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+nav ul,
+nav ul li,
+ol.not-list,
+ol.not-list li,
+ul.not-list,
+ul.not-list li {
+    margin: 0;
+    padding: 0;
+	list-style: none;
+}
+.no-outline:focus {
+	outline: none;
+}
+.no-overflow {
+	overflow: hidden;
+}
+
+
+
+/* display */
+.none {
+	display: none;
+}
+.block {
+	display: block;
+}
+.inline {
+	display: inline;
+}
+.inline-block {
+	display: inline-block;
+}
+.table-cell {
+	display: table-cell;
+}
+.hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+	overflow: hidden;
+	z-index: -50;
+}
+
+
+
+/* positioning */
+.absolute {
+	position: absolute;
+}
+.relative {
+	position: relative;
+}
+.fixed {
+	position: fixed;
+}
+.static {
+	position: static;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.center {
+	margin: 0 auto;
+}
+.clear {
+	float: none;
+	clear: both;
+}
+
+
+
+/* formatting */
+.bold {
+	font-weight: 700;
+}
+.italic {
+	font-style: italic;
+}
+.bold-italic {
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+/* line break */
+.break5 {
+    height: 5px;
+}
+.break10 {
+    height: 10px;
+}
+.break15 {
+    height: 15px;
+}
+.break20 {
+    height: 20px;
+}
+.break25 {
+    height: 25px;
+}
+.break30 {
+    height: 30px;
+}
+.break35 {
+    height: 35px;
+}
+.break40 {
+    height: 40px;
+}
+.break45 {
+    height: 45px;
+}
+.break50 {
+    height: 50px;
+}
+
+
+
+/* space */
+.space5 {
+    width: 5px;
+    display: inline-block;
+}
+.space10 {
+    width: 10px;
+    display: inline-block;
+}
+.space15 {
+    width: 15px;
+    display: inline-block;
+}
+.space20 {
+    width: 20px;
+    display: inline-block;
+}
+.space25 {
+    width: 25px;
+    display: inline-block;
+}
+.space30 {
+    width: 30px;
+    display: inline-block;
+}
+.space35 {
+    width: 35px;
+    display: inline-block;
+}
+.space40 {
+    width: 40px;
+    display: inline-block;
+}
+.space45 {
+    width: 45px;
+    display: inline-block;
+}
+.space50 {
+    width: 50px;
+    display: inline-block;
+}
+
+
+
+/* color */
+.black {
+	color: #000;
+}
+.white {
+	color: #fff;
+}
+.red {
+	color: #f00;
+}
+.blue {
+	color: #00f;
+}
+
+
+
+/* transition */
+.transition-all {
+	-webkit-transition: all 400ms;
+	   -moz-transition: all 400ms;
+	        transition: all 400ms;
+}
+
+.transition-bg {
+	-webkit-transition: background-color 400ms;
+	   -moz-transition: background-color 400ms;
+	        transition: background-color 400ms;
+}
+
+.transition-color {
+	-webkit-transition: color 400ms;
+	   -moz-transition: color 400ms;
+	        transition: color 400ms;
+}
+
+.transition-opacity {
+	-webkit-transition: opacity 400ms;
+	   -moz-transition: opacity 400ms;
+	        transition: opacity 400ms;
+}
+
+
+
+/* columns group */
+.colsgroup {
+	
+}
+	.colsgroup > .column {
+		float: left;
+	}
+.colsgroup:after {
+	float: none;
+	clear: both;
+	content: '';
+	display: block;
+}
+
+
+
+/* table */
+.table {
+    
+}
+	.table > .row {
+		
+	}
+		.table > .row > .column {
+			float: left;
+		}
+	.table > .row:after {
+		float: none;
+		clear: both;
+		content: '';
+		display: block;
+	}
