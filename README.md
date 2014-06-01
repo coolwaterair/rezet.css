@@ -1,7 +1,7 @@
 rezet.css
 ===
 
-is another CSS reset for developer who perefer to build layout from scratch instead of using the framework.
+is another CSS reset for developer who prefer to build layout from scratch instead of using the framework.
 Everything is up to you, your layout is totally in your control.
 
 >Just code your layout. We've reset the needed html for you
@@ -11,7 +11,7 @@ API
 ---
 ###Table
 
-We provide the most basic table's bone. Your part is styling and customizing.
+We provide the most basic table's bone. Your part is styling, controlling, and customizing.
 ```
 <div class="table">
     <div class="row">
@@ -44,7 +44,7 @@ Do you need something __simpler__ than table? Awesome! Use `colsgroup`
 &nbsp;
 
 ###Transition
-Need basic of transition effect when hover-ed or click-ed? We provide some class:
+Need basic of transition effect when hover-ed or click-ed? We provide some classes:
 - `transition-all`
 - `transition-bg`
 - `transition-color`
@@ -114,7 +114,7 @@ Because my need is <span class="space25"></span>just simple
 &nbsp;
 
 ###Line Break
-Here is some _line break_ class to be used when you're bored with conventional _<br>_ tag.
+Here is some _line break_ classes to be used when you're bored with conventional _<br>_ tag.
 - `.break5`
 - `.break10`
 - `.break15`
